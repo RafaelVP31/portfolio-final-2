@@ -88,4 +88,8 @@
     .formulario__container--conteudo {
         width: 350px;
     }
+
+    .principal__resposta {
+        padding: 0 30px;
+    }
 }
