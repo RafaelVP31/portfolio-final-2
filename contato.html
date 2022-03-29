@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Souza | Portfólio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/conteudo-principal.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/form.css">
+
+    <link rel="stylesheet" href="./css/query-form-414.css">
+    <link rel="stylesheet" href="./css/query-form-375.css">
+    
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="menu">
+           
+            <ul class="menu__lista">
+                
+                <li class="menu__lista--item">
+                    <img src="./img/logo-java.png" alt="" class="menu__lista--header">
+                    <a href="./index.html" class="menu__lista--link">Início</a>
+                </li>
+
+                <li class="menu__lista--item">
+                    <a href="#" class="menu__lista--link">projetos</a>
+                </li>
+
+                <li class="menu__lista--item">
+                    <a href="./contato.html" class="menu__lista--link">Contato</a>
+                </li>
+            </ul>
+
+            <ul class="redes-sociais__lista">
+                <li class="redes-sociais__lista--item">
+                    <a href="https://www.linkedin.com/in/rafael-souza-7377a498/" class="redes-sociais__lista--linkedin"><img src="./img/icons8-linkedin-2-50.png" alt="" class="social"></a>
+                </li>
+
+                <li class="redes-sociais__lista--item">
+                    <a href="https://github.com/RafaelVP31" class="redes-sociais__lista--github"><img src="./img/icons8-github-50.png" alt="" class="social"></a>
+                </li>
+
+                <li class="redes-sociais__lista--item">
+                    <a href="#" class="redes-sociais__lista--youtube"><img src="./img/icons8-reproduzir-youtube-50.png" alt="" class="social"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="principal">
+        <section class="box-tecs">
+            <a href="#contato-form"><img src="./img/banner-contato.jpg" alt="" class="box-tecs__banner-contato"></a>
+        </section>
+
+        <section class="formulario">
+            <div class="formulario__container">
+                <h2 class="main-titulo" id="inicio">
+                    Entrar em contato
+                </h2>
+                <form action="https://formsubmit.co/rafael.ufrrj@yahoo.com" method="post" class="formulario__container--conteudo">
+                    <label for="nomesobrenome" class="formulario__container--item">Nome</label>
+				    <input type="text" name="nome" id="nomesobrenome" class="input-padrao" required placeholder="Informe seu nome">
+
+                    <label for="email" class="formulario__container--item">Email</label>
+				    <input type="email" name="email" id="email" class="input-padrao" required placeholder="seuemail@exemplo.com">
+
+				    <label for="telefone" class="formulario__container--item">Telefone</label>
+				    <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(00) 00000-0000">
+
+				    <label for="mensagem" class="formulario__container--item">Mensagem</label>
+				    <textarea name="mensagem" cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+
+                    <button class="enviar" type="submit" value="enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="autor">
+            <div class="autor__conteudo">
+                <div class="autor__conteudo--texto">
+                    <h2 class="autor__conteudo--nome">
+                        Rafael Silva de Souza
+                    </h2>
+                    <p class="autor__conteudo--informacoes">
+                        Natural do Rio de Janeiro, capital, sempre foi apaixonado por tecnologia.
+                        Aos 15 anos de idade (ano de 2006), de forma autodidata, elaborava sites simples
+                        com HTML em seu primeiro computador. Hoje, possui vastos conhecimentos em HTML5 e
+                        CSS3. Para mais informações, entre em <a href="#" class="menu__lista--link">contato</a>.
+                    </p>
+
+                    <a href="#inicio" class="subir__topo--link"><img src="./img/voltar-ao-topo.png" alt="" class="subir__topo--imagem"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__conteudo">
+            &copy;2022 Rafael Silva de Souza | Todos os direitos reservados 
+        </p>
+    </footer>
+</body>
+
+</html>

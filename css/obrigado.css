@@ -1,0 +1,25 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 100px;
+}
+
+.principal__resposta {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FDFDFD;
+    font-style: italic;
+    padding: 0 290px;
+}
+
+.principal__retorno {
+    text-align: center;
+}
+
+.principal__retorno--link {
+    text-decoration: none;
+    color: #FDFDFD;
+}

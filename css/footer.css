@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001523;
+    height: 50px;
+}
+
+.footer__conteudo {
+    display: flex;
+    color: #FDFDFD;
+    font-size: 0.8rem;
+}

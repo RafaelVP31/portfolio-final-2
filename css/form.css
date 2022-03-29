@@ -1,0 +1,47 @@
+.formulario__container--conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.formulario__container--item {
+    padding: 20px 0;
+    color: #FDFDFD;
+    font-size: 1.4rem;
+}
+
+.input-padrao {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.enviar {
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #003A61;
+    align-self: center;
+    border: 2px solid #FDFDFD;
+}
+
+.enviar:hover {
+    cursor: pointer;
+    background-color: #003A61;
+    border: 2px solid #FDFDFD;
+    color: #FDFDFD;
+}
+
+.box-tecs__banner-contato {
+    width: 800px;
+    box-shadow: 7px 8px 10px #000000;
+}
+
+.box-tecs {
+    align-items: center;
+}
